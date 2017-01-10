@@ -25,3 +25,17 @@ namespace ComicBookGallery.Controllers
 
     }
 }
+
+using System.Web.Mvc;
+
+namespace Treehouse.Controllers
+{
+    public class VideoGamesController : Controller
+    {
+        public ActionResult Detail()
+        {
+            return "Welcome to the Video Game Detail page!";
+        }
+        return Content("Hello from the comic book controller");
+    }
+}
