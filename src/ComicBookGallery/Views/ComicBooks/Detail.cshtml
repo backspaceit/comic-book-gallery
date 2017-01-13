@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = ~/ Views / Shared / _Layout.cshtml;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 
 
 }
@@ -13,8 +13,8 @@
 </head>
 <body>
     <div>
-    <h1>@seriesTitle</h1>
-        <h2>Issue #@issueNumber</h2>
+    <h1>@ViewBag.seriesTitle</h1>
+        <h2>Issue #@ViewBag.issueNumber</h2>
     </div>
 </body>
 </html>
